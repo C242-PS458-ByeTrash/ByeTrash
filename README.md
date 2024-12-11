@@ -23,7 +23,7 @@ Dalam proyek ini, kami menggunakan beberapa bahasa pemrograman dan teknologi:
 | **Dockerfile**           | Membuat image           |
 | **JavaScript**    | Menambahkan interaktivitas ke halaman web dan authentication firebase |
 | **Python**        | Backend API         |
-| **YAML**          | Konfigurasi untuk app engine  |
+| **YAML**          | Konfigurasi untuk app engine dan swagger  |
 
 
 ---
