@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Recycling Prediction API
+  version: 1.0.0
+  description: API untuk memprediksi jenis sampah
+
+paths:
+  /:
+    get:
+      summary: Home
+      description: Menampilkan pesan selamat datang
+      responses:
+        '200':
+          description: Berhasil
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /predict:
+    post:
+      summary: Predict the waste type
+      description: Upload a file and get the prediction
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: File image to predict
+      responses:
+        '200':
+          description: Successful Prediction
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prediction:
+                    type: string
+                    description: Predicted label
+                  confidence:
+                    type: number
+                    format: float
+                    description: Confidence of the prediction
+        '400':
+          description: Bad Request
+        '500':
+          description: Internal Server Error
