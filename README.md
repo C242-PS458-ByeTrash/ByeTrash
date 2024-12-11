@@ -6,30 +6,44 @@
     alt="ByeTrash Logo">
 </p>
 
-# Panduan Pengguna ByeTrash 🌱
+# ByeTrash: Solusi Modern untuk Pengelolaan Sampah
 
-Selamat datang di **ByeTrash**, platform inovatif untuk pengelolaan sampah digital. Kami menyediakan cara sederhana dan efektif untuk mengidentifikasi dan mengelola sampah Anda secara digital. Ikuti panduan ini untuk memulai!
+**ByeTrash** adalah platform inovatif yang memanfaatkan teknologi digital untuk membantu pengelolaan sampah secara lebih efektif, efisien, dan berkelanjutan. Dengan fitur cerdas berbasis prediksi, kami bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
 
 ---
 
-## Akses Platform
+## Teknologi yang Digunakan
 
+Kami memanfaatkan berbagai teknologi untuk menciptakan solusi ini:
+
+| Teknologi          | Peran Utama                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **HTML**           | Membentuk struktur inti halaman web                                         |
+| **CSS**            | Memberikan gaya dan estetika pada antarmuka pengguna                        |
+| **Dockerfile**     | Membangun container image untuk pengelolaan aplikasi                       |
+| **JavaScript**     | Menambahkan interaktivitas dan otentikasi berbasis Firebase                |
+| **Python**         | Menangani logika backend dan API                                            |
+| **YAML**           | Mengatur konfigurasi untuk App Engine dan Swagger dokumentasi API          |
+
+---
+
+## Panduan Pengguna
+
+### Akses Platform
 - 🌐 **Website**: [byetrash.web.id](https://byetrash.web.id/)
 - 📖 **API Dokumentasi**: [Swagger ByeTrash API](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
 
----
+### Langkah-Langkah Penggunaan
 
-## Langkah-Langkah Penggunaan
-
-### 1. Login atau Registrasi
-- Masuk ke platform dengan akun Google atau mendaftar menggunakan email Anda.
+#### 1. Login atau Registrasi
+- Masuk ke platform menggunakan akun Google atau daftar menggunakan email Anda.
 - Klik tombol **Register** jika belum memiliki akun.
 
-### 2. Atur Profil Anda (Opsional)
-- Masuk ke **Menu Setting** untuk melengkapi informasi profil Anda seperti nama, alamat, atau preferensi lainnya.
-- Langkah ini opsional, namun disarankan untuk pengalaman yang lebih personal.
+#### 2. Atur Profil Anda (Opsional)
+- Masuk ke **Menu Setting** untuk melengkapi informasi profil seperti nama, alamat, atau preferensi lainnya.
+- Langkah ini opsional, namun direkomendasikan untuk pengalaman yang lebih personal.
 
-### 3. Prediksi Gambar Sampah
+#### 3. Prediksi Gambar Sampah
 - Akses fitur prediksi di halaman utama.
 - **Upload gambar** sampah Anda ke kotak unggah yang tersedia.
 - Klik tombol **Prediksi** untuk mendapatkan hasil analisis.
@@ -46,14 +60,20 @@ Setelah gambar diproses, Anda akan melihat hasil prediksi dengan kode warna beri
 ---
 
 ## Fitur Tambahan
-- **Dashboard Statistik**: Lihat riwayat prediksi Anda dalam bentuk grafik yang menarik.
+- **Dashboard Statistik**: Lihat riwayat prediksi Anda dalam bentuk grafik interaktif.
 - **API Swagger**: Akses dokumentasi API untuk integrasi dengan sistem lain. [Lihat Dokumentasi](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
 
 ---
 
-## Masalah atau Bantuan?
+## Kontribusi
 
-Jika Anda mengalami kendala atau memiliki pertanyaan, hubungi kami melalui email **support@byetrash.web.id** atau buat laporan melalui [GitHub Issues](https://github.com/C242-PS458-ByeTrash/ByeTrash/issues).
+Kami menyambut kontribusi Anda untuk mengembangkan proyek ini lebih jauh. Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk memulai.
+
+---
+
+## Lisensi
+
+Proyek ini dilindungi di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ---
 
