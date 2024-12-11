@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByeTrash Dashboard</title>
+  <!-- Link Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+ 
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #006400; /* Dark green */
+      color: white;
+      text-align: center;
+      padding: 2rem 0; /* Perbesar padding pada header */
+      position: relative; /* Add this line to enable absolute positioning of the settings icon */
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      padding: 30px;
+      transition: transform 0.3s ease;
+      margin-bottom: 20px;
+      min-height: 250px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      color: #006400; /* Dark green */
+      font-size: 24px;
+    }
+    .card p {
+      color: #333;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .menu {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #006400; /* Dark green */
+      margin: 0 20px;
+      font-size: 30px; /* Ukuran ikon lebih besar */
+    }
+    .menu a:hover {
+      color: #004d00; /* Darker green */
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+      background-color: #006400; /* Dark green */
+      color: white;
+    }
+    /* Responsif: Menyesuaikan ukuran tampilan untuk perangkat lebih kecil */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .card {
+        width: 90%; /* Kartu akan mengambil 90% lebar layar */
+        margin-bottom: 20px;
+      }
+      .menu a {
+        font-size: 24px; /* Ukuran ikon menu lebih kecil untuk layar kecil */
+        margin: 0 10px;
+      }
+    }
+    .notification {
+      background-color: #28a745;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .settings-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+    }
+    .settings-icon a {
+      color: white;
+    }
+    .settings-icon a:hover {
+      color: #ccc;
+    }
+    .notification-icon {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 30px;
+    }
+    .notification-icon a {
+      color: white;
+    }
+    .notification-icon a:hover {
+      color: #ccc;
+    }
+    .upload-box {
+      background-color: #ffffff;
+      border: 2px dashed #006400; /* Dark green */
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      width: 300px;
+      margin: 20px auto;
+      cursor: pointer; /* Add cursor pointer to indicate clickable area */
+    }
+    .upload-box p {
+      margin: 10px 0;
+      color: #333;
+    }
+    .upload-box .ByeTrash {
+      font-size: 12px;
+      color: #006400; /* Dark green */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Notification -->
+<div id="notification" class="notification" style="display: none;">
+  Welcome, <span id="user-name"></span>! Your email is <span id="user-email"></span>.
+</div>
+
+<header>
+  <div class="notification-icon">
+    <a href="#" title="Notification"><i class="fas fa-bell"></i></a>
+  </div>
+  <div class="settings-icon">
+    <a href="https://byetrash.web.id/settings" title="Settings"><i class="fas fa-cogs"></i></a>
+  </div>
+  <h1>ByeTrash Dashboard</h1>
+  <p>Prediksi sampah  organik, non-organik dan berbahaya</p>
+</header>
+
+<div class="container">
+  <div class="card">
+    <h2>Non-Organik</h2>
+    <p>Sampah non organik adalah sampah yang berasal dari bahan-bahan non hayati, seperti produk sintetis, hasil teknologi pengolahan bahan tambang, dan sumber daya alam yang tidak dapat diperbarui.</p>
+  
+  </div>
+  <div class="card">
+    <h2>Organik</h2>
+    <p>Sampah organik adalah sampah yang berasal dari makhluk hidup, seperti sisa makanan, daun-daun kering, dan potongan kayu. Sampah organik dapat terurai secara alami dan memiliki banyak manfaat.</p>
+  
+  </div>
+  <div class="card">
+    <h2>Sampah Berbahaya</h2>
+    <p>Sampah berbahaya adalah buangan atau limbah yang sifat dan konsentrasinya mengandung zat yang beracun dan berbahaya sehingga dapat mengancam kelangsungan hidup manusia serta organisme lainnya.</p>
+  
+  </div>
+</div>
+
+<div class="upload-box" onclick="document.getElementById('file-input').click();">
+  <p>Drop image or click to select</p>
+  <p>JPG, PNG, BMP, or WEBP</p>
+  <p>Powered by</p>
+  <p class="ByeTrash">ByeTrash</p>
+</div>
+
+<input type="file" id="file-input" style="display: none;" />
+
+<!-- Menu di bawah dashboard dengan Font Awesome Icons -->
+<div class="menu">
+  <a href="#" title="Home"><i class="fas fa-home"></i></a>
+  <a href="#" title="Riwayat"><i class="fas fa-history"></i></a>
+</div>
+<script>
+  const fileInput = document.getElementById('file-input');
+  const uploadBox = document.querySelector('.upload-box');
+
+  // URL API backend
+  const API_URL = "https://byetrash-913316825970.asia-southeast2.run.app/predict";
+
+  // Event Listener untuk file input
+  fileInput.addEventListener('change', async (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      // Tampilkan loading status
+      uploadBox.innerHTML = "<p>Processing...</p>";
+
+      try {
+        // Buat FormData untuk mengirim file
+        const formData = new FormData();
+        formData.append('file', file);
+
+        // Kirim file ke backend
+        const response = await fetch(API_URL, {
+          method: 'POST',
+          body: formData,
+        });
+
+        // Parse hasil prediksi
+        const result = await response.json();
+
+        if (response.ok) {
+  // Buat elemen segitiga berdasarkan hasil prediksi
+  const prediction = result.prediction.toLowerCase();
+  const triangleColors = {
+    "berbahaya": "red",
+    "non-organik": "yellow",
+    "organik": "green"
+  };
+
+  const triangleColor = triangleColors[prediction] || "gray"; // Default color jika prediksi tidak diketahui
+
+  // Tampilkan hasil prediksi dengan animasi segitiga
+  uploadBox.innerHTML = `
+    <h3>Prediction Result:</h3>
+    <p><strong>${result.prediction}</strong></p>
+    <div class="triangle" style="border-color: transparent transparent ${triangleColor} transparent;"></div>
+  `;
+} else {
+  throw new Error(result.error || 'Something went wrong');
+}
+
+/* Tambahkan CSS untuk segitiga */
+const style = document.createElement("style");
+style.innerHTML = `
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 40px 20px;
+    margin: 10px auto;
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+`;
+document.head.appendChild(style);
+
+} catch (error) {
+  // Tampilkan pesan error
+  let errorMessage = 'Error: Failed to fetch';
+  if (error.message) {
+    errorMessage = `Error: ${error.message}`;
+  }
+  uploadBox.innerHTML = `
+    <p style="color: red;">${errorMessage}</p>
+  `;
+}
+    }
+  });
+</script>
+
+
+
+<footer>
+  <p>&copy; 2024 ByeTrash Friends. All Rights Reserved.</p>
+</footer>
+
+<script type="module" src="./js/homepage.js"></script>
+</body>
+</html>
