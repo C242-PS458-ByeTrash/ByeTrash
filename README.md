@@ -2,6 +2,6 @@
   <img 
     width="200" 
     height="200" 
-    src="https://raw.githubusercontent.com/C242-PS458-ByeTrash/ByeTrash/main/assets/banner.jpg" 
+    src="https://github.com/C242-PS458-ByeTrash/ByeTrash/issues/1#issue-2732001150" 
     alt="My Banner">
 </p>
