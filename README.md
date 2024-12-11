@@ -6,41 +6,57 @@
     alt="ByeTrash Logo">
 </p>
 
-# ByeTrash: Solusi Modern untuk Pengelolaan Sampah
+# Panduan Pengguna ByeTrash 🌱
 
-**ByeTrash** adalah inovasi berbasis teknologi yang dirancang untuk mendukung pengelolaan sampah secara efektif, efisien, dan berkelanjutan. Dengan memanfaatkan teknologi web modern dan pemrosesan data yang canggih, proyek ini bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
-
----
-
-## Teknologi yang Digunakan
-
-Kami memadukan berbagai bahasa pemrograman dan teknologi untuk menciptakan solusi yang solid:
-
-| Teknologi          | Peran Utama                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| **HTML**           | Membentuk struktur inti halaman web                                         |
-| **CSS**            | Memberikan gaya dan estetika pada antarmuka pengguna                        |
-| **Dockerfile**     | Membangun container image untuk pengelolaan aplikasi                       |
-| **JavaScript**     | Menambahkan interaktivitas dan otentikasi berbasis Firebase                |
-| **Python**         | Menangani logika backend dan API                                            |
-| **YAML**           | Mengatur konfigurasi untuk App Engine dan Swagger dokumentasi API          |
+Selamat datang di **ByeTrash**, platform inovatif untuk pengelolaan sampah digital. Kami menyediakan cara sederhana dan efektif untuk mengidentifikasi dan mengelola sampah Anda secara digital. Ikuti panduan ini untuk memulai!
 
 ---
 
-## Fitur Unggulan
-- **Klasifikasi Sampah Digital**: Pemrosesan cerdas untuk mengelompokkan sampah berdasarkan kategori.
-- **Dashboard Dinamis**: Menampilkan data pengelolaan secara visual untuk memudahkan pengambilan keputusan.
-- **Pipeline Otomatis**: Menggunakan YAML untuk mengelola automasi dan konfigurasi aplikasi.
+## Akses Platform
+
+- 🌐 **Website**: [byetrash.web.id](https://byetrash.web.id/)
+- 📖 **API Dokumentasi**: [Swagger ByeTrash API](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
 
 ---
 
-## Panduan Memulai Proyek
+## Langkah-Langkah Penggunaan
 
-Ingin berkontribusi atau mencoba proyek ini? Ikuti langkah-langkah berikut:
+### 1. Login atau Registrasi
+- Masuk ke platform dengan akun Google atau mendaftar menggunakan email Anda.
+- Klik tombol **Register** jika belum memiliki akun.
 
-1. Clone repository ini ke perangkat Anda:
-   ```bash
-   git clone https://github.com/C242-PS458-ByeTrash/ByeTrash.git
-1. Clone repository ini ke perangkat Anda:
-   ```bash
-   git clone https://github.com/C242-PS458-ByeTrash/ByeTrash.git
+### 2. Atur Profil Anda (Opsional)
+- Masuk ke **Menu Setting** untuk melengkapi informasi profil Anda seperti nama, alamat, atau preferensi lainnya.
+- Langkah ini opsional, namun disarankan untuk pengalaman yang lebih personal.
+
+### 3. Prediksi Gambar Sampah
+- Akses fitur prediksi di halaman utama.
+- **Upload gambar** sampah Anda ke kotak unggah yang tersedia.
+- Klik tombol **Prediksi** untuk mendapatkan hasil analisis.
+
+---
+
+## Hasil Prediksi
+
+Setelah gambar diproses, Anda akan melihat hasil prediksi dengan kode warna berikut:
+- 🟥 **Berbahaya**: Sampah yang termasuk kategori berbahaya akan ditampilkan dengan **warna merah**.
+- 🟨 **Non-Organik**: Sampah non-organik ditandai dengan **warna kuning**.
+- 🟩 **Organik**: Sampah organik ditandai dengan **warna hijau**.
+
+---
+
+## Fitur Tambahan
+- **Dashboard Statistik**: Lihat riwayat prediksi Anda dalam bentuk grafik yang menarik.
+- **API Swagger**: Akses dokumentasi API untuk integrasi dengan sistem lain. [Lihat Dokumentasi](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
+
+---
+
+## Masalah atau Bantuan?
+
+Jika Anda mengalami kendala atau memiliki pertanyaan, hubungi kami melalui email **support@byetrash.web.id** atau buat laporan melalui [GitHub Issues](https://github.com/C242-PS458-ByeTrash/ByeTrash/issues).
+
+---
+
+<p align="center">
+  🚀 **Mulai perjalanan Anda menuju pengelolaan sampah yang lebih pintar dengan ByeTrash!** 🌟
+</p>
