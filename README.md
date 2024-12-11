@@ -3,40 +3,44 @@
     width="200" 
     height="200" 
     src="https://github.com/C242-PS458-ByeTrash/ByeTrash/blob/main/logo.png" 
-    alt="My Banner">
+    alt="ByeTrash Logo">
 </p>
 
-## Tentang Proyek
+# ByeTrash: Solusi Modern untuk Pengelolaan Sampah
 
-ByeTrash adalah proyek yang bertujuan untuk membantu pengelolaan sampah secara lebih efektif menggunakan teknologi berbasis web dan pemrosesan data.
-
----
-
-## Bahasa yang Digunakan
-
-Dalam proyek ini, kami menggunakan beberapa bahasa pemrograman dan teknologi:
-
-| Bahasa/Framework | Kegunaan                                   |
-|-------------------|-------------------------------------------|
-| **HTML**          | Membuat struktur halaman web             |
-| **CSS**           | Mendesain tampilan halaman web           |
-| **Dockerfile**           | Membuat image           |
-| **JavaScript**    | Menambahkan interaktivitas ke halaman web dan authentication firebase |
-| **Python**        | Backend API         |
-| **YAML**          | Konfigurasi untuk app engine dan swagger  |
-
+**ByeTrash** adalah inovasi berbasis teknologi yang dirancang untuk mendukung pengelolaan sampah secara efektif, efisien, dan berkelanjutan. Dengan memanfaatkan teknologi web modern dan pemrosesan data yang canggih, proyek ini bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
 
 ---
 
-## Fitur Utama
-- **Pengelolaan Sampah Digital**: Mengelompokkan sampah berdasarkan jenis.
-- **Dashboard**: Memvisualisasikan data pengelolaan.
-- **Automasi**: Mendukung pipeline otomatis dengan YAML.
+## Teknologi yang Digunakan
+
+Kami memadukan berbagai bahasa pemrograman dan teknologi untuk menciptakan solusi yang solid:
+
+| Teknologi          | Peran Utama                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **HTML**           | Membentuk struktur inti halaman web                                         |
+| **CSS**            | Memberikan gaya dan estetika pada antarmuka pengguna                        |
+| **Dockerfile**     | Membangun container image untuk pengelolaan aplikasi                       |
+| **JavaScript**     | Menambahkan interaktivitas dan otentikasi berbasis Firebase                |
+| **Python**         | Menangani logika backend dan API                                            |
+| **YAML**           | Mengatur konfigurasi untuk App Engine dan Swagger dokumentasi API          |
 
 ---
 
-## Cara Menjalankan Proyek
+## Fitur Unggulan
+- **Klasifikasi Sampah Digital**: Pemrosesan cerdas untuk mengelompokkan sampah berdasarkan kategori.
+- **Dashboard Dinamis**: Menampilkan data pengelolaan secara visual untuk memudahkan pengambilan keputusan.
+- **Pipeline Otomatis**: Menggunakan YAML untuk mengelola automasi dan konfigurasi aplikasi.
 
-1. Clone repository ini:
+---
+
+## Panduan Memulai Proyek
+
+Ingin berkontribusi atau mencoba proyek ini? Ikuti langkah-langkah berikut:
+
+1. Clone repository ini ke perangkat Anda:
+   ```bash
+   git clone https://github.com/C242-PS458-ByeTrash/ByeTrash.git
+1. Clone repository ini ke perangkat Anda:
    ```bash
    git clone https://github.com/C242-PS458-ByeTrash/ByeTrash.git
