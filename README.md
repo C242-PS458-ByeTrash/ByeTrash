@@ -6,7 +6,7 @@
     alt="ByeTrash Logo">
 </p>
 
-# ByeTrash: Solusi Modern untuk Pengelolaan Sampah
+# ByeTrash: A Modern Solution for Waste Management
 
 **ByeTrash** is an innovative platform that leverages digital technology to facilitate more effective, efficient, and sustainable waste management. With smart prediction-based features, we aim to create a better waste management ecosystem.
 
