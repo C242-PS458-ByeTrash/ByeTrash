@@ -27,38 +27,38 @@
 
 ---
 
-## Teknologi yang Digunakan
+## Technology Used
 
-Kami memanfaatkan berbagai teknologi untuk menciptakan solusi ini:
+We utilize various technologies to develop this solution:
 
-| Teknologi          | Peran Utama                                                                 |
+| Technology          | Main Role                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| **HTML**           | Membentuk struktur inti halaman web                                         |
-| **CSS**            | Memberikan gaya dan estetika pada antarmuka pengguna                        |
-| **Dockerfile**     | Membangun container image untuk pengelolaan aplikasi                       |
-| **JavaScript**     | Menambahkan interaktivitas dan otentikasi berbasis Firebase                |
-| **Python**         | Menangani logika backend dan API                                            |
-| **YAML**           | Mengatur konfigurasi untuk App Engine dan Swagger dokumentasi API          |
+| **HTML**           | 	Forms the core structure of web pages                                         |
+| **CSS**            | Provides styling and aesthetics for the user interface                       |
+| **Dockerfile**     | Builds container images for application management                       |
+| **JavaScript**     | Adds interactivity and Firebase-based authentication                |
+| **Python**         | Handles backend logic and APIs                                            |
+| **YAML**           | Manages configuration for App Engine and Swagger API documentation          |
 
 ---
 
-## Panduan Pengguna
+## User Guide
 
 ### Akses Platform
 - 🌐 **Website**: [byetrash.web.id](https://byetrash.web.id/)
 - 📖 **API Dokumentasi**: [Swagger ByeTrash API](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
 
-### Langkah-Langkah Penggunaan
+### Steps to Use
 
-#### 1. Login atau Registrasi
-- Masuk ke platform menggunakan akun Google atau daftar menggunakan email Anda.
-- Klik tombol **Register** jika belum memiliki akun.
+#### 1. Login or Register
+- Log in to the platform using your Google account or register with your email.
+- Click the "Register" button if you don't have an account yet.
+  
+#### 2. Set Up Your Profile (Optional)
+- Go to the Settings menu to complete your profile information, such as name, address, or other preferences.
+- This step is optional but recommended for a more personalized experience.
 
-#### 2. Atur Profil Anda (Opsional)
-- Masuk ke **Menu Setting** untuk melengkapi informasi profil seperti nama, alamat, atau preferensi lainnya.
-- Langkah ini opsional, namun direkomendasikan untuk pengalaman yang lebih personal.
-
-#### 3. Prediksi Gambar Sampah
+#### 3. Waste Image Prediction
 - Akses fitur prediksi di halaman utama.
 - **Upload gambar** sampah Anda ke kotak unggah yang tersedia.
 - Klik tombol **Prediksi** untuk mendapatkan hasil analisis.
