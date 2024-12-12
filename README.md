@@ -59,18 +59,17 @@ We utilize various technologies to develop this solution:
 - This step is optional but recommended for a more personalized experience.
 
 #### 3. Waste Image Prediction
-- Akses fitur prediksi di halaman utama.
-- **Upload gambar** sampah Anda ke kotak unggah yang tersedia.
-- Klik tombol **Prediksi** untuk mendapatkan hasil analisis.
-
+- Access the prediction feature on the main page.
+- **Upload an image** of your waste to the provided upload box..
+- Click the "Predict" button to receive the analysis results.
 ---
 
-## Hasil Prediksi
+## Prediction Results
 
-Setelah gambar diproses, Anda akan melihat hasil prediksi dengan kode warna berikut:
-- 🟥 **Berbahaya**: Sampah yang termasuk kategori berbahaya akan ditampilkan dengan **warna merah**.
-- 🟨 **Non-Organik**: Sampah non-organik ditandai dengan **warna kuning**.
-- 🟩 **Organik**: Sampah organik ditandai dengan **warna hijau**.
+After the image is processed, you will see the prediction results with the following color codes:
+- 🟥 **Hazardous**: Waste categorized as hazardous will be displayed in red.**.
+- 🟨 **Non-Organic**: Non-organic waste is marked in yellow.
+- 🟩 **Organic**: Organic waste is marked in green..
 
 ---
 
