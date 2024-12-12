@@ -12,7 +12,6 @@
 
 ---
 ## Group ID : C242-PS458 
-
 ## Member :
 
 | Student ID | Name            | Learning Path         | University           | LinkedIn                                                                 |
