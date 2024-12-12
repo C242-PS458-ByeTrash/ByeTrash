@@ -18,7 +18,7 @@
 
 | Student ID | Name            | Learning Path         | University           | LinkedIn                                                                 |
 |------------|-----------------|-----------------------|----------------------|--------------------------------------------------------------------------|
-|C370B4KX0943| Cintia Putri Prasetia |Cloud Computing |STMIK IKMI Cirebon | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://linkedin.com/in/johndoe](https://www.linkedin.com/in/cintia-putri-prasetia-466979322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) |
+|C370B4KX0943| Cintia Putri Prasetia |Cloud Computing |STMIK IKMI Cirebon | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://linkedin.com/in/janesmith](https://www.linkedin.com/in/cintia-putri-prasetia-466979322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)) |
 |C370B4KY1685| Hajijin Amri |Cloud Computing | STMIK IKMI Cirebon| [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/janesmith) |
 |M370B4KX3521|Putri Nabilla| Machine Learning      |STMIK IKMI Cirebon| [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
 |A370B4KY3705|Ray Restu Seftiyan| Mobile Development|STMIK IKMI Cirebon| [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
