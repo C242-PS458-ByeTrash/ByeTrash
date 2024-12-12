@@ -14,13 +14,15 @@
  Group ID : C242-PS458 
 ## Member :
 
+
+
 | Student ID | Name            | Learning Path         | University           | LinkedIn                                                                 |
 |------------|-----------------|-----------------------|----------------------|--------------------------------------------------------------------------|
-| C370B4KX0943	        | Cintia Putri Prasetia	        | Cloud Computing| STMIK IKMI Cirebon
-   | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/johndoe) |
-| 102        | Jane Smith      | Web Development       | Stanford University  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/janesmith) |
-| 103        | Bob Johnson     | Machine Learning      | MIT                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
-| 104        | Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+|C370B4KX0943| John Doe        | Data Science          | Harvard University   | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/johndoe) |
+|C370B4KY1685| Jane Smith      | Web Development       | Stanford University  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/janesmith) |
+|M370B4KX3521| Bob Johnson     | Machine Learning      | MIT                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
+|A370B4KY3705| Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+
 
 ---
 
