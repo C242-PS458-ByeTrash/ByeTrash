@@ -20,10 +20,10 @@
 |------------|-----------------|-----------------------|----------------------|--------------------------------------------------------------------------|
 |C370B4KX0943| Cintia Putri Prasetia | Data Science          | Harvard University   | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/johndoe) |
 |C370B4KY1685| Hajijin Amri | Web Development       | Stanford University  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/janesmith) |
-|M370B4KX3521| Bob Johnson     | Machine Learning      | MIT                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
-|A370B4KY3705| Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
-|A370B4KY3705| Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
-|A370B4KY3705| Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+|M370B4KX3521|Putri Nabilla| Machine Learning      | MIT                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
+|A370B4KY3705|Ray Restu Seftiyan| Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+|M370B4KX3996|Sabrina Tria Amanda| Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+|M370B4KX4340| Tiara Amanda Putri | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
 
 ---
 
