@@ -11,7 +11,7 @@
 **ByeTrash** adalah platform inovatif yang memanfaatkan teknologi digital untuk membantu pengelolaan sampah secara lebih efektif, efisien, dan berkelanjutan. Dengan fitur cerdas berbasis prediksi, kami bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
 
 ---
-## Group ID : C242-PS458 
+ Group ID : C242-PS458 
 ## Member :
 
 | Student ID | Name            | Learning Path         | University           | LinkedIn                                                                 |
