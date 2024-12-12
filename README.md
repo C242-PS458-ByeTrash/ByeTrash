@@ -73,18 +73,18 @@ After the image is processed, you will see the prediction results with the follo
 
 ---
 
-## Fitur Tambahan
-- **API Swagger**: Akses dokumentasi API untuk integrasi dengan sistem lain. [Lihat Dokumentasi](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
+## Additional Features
+- **API Swagger**: Access the API documentation for integration with other systems. [View Documentation](https://byetrash-913316825970.asia-southeast2.run.app/swagger)
 
 
 ---
 
-## Lisensi
+## License
 
-Proyek ini dilindungi di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+This project is protected under the MIT License. [LICENSE](LICENSE) file for more details.
 
 ---
 
 <p align="center">
-  🚀 **Mulai perjalanan Anda menuju pengelolaan sampah yang lebih pintar dengan ByeTrash!** 🌟
+  🚀 **Start your journey toward smarter waste management with ByeTrash!** 🌟
 </p>
