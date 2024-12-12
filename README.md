@@ -11,6 +11,16 @@
 **ByeTrash** adalah platform inovatif yang memanfaatkan teknologi digital untuk membantu pengelolaan sampah secara lebih efektif, efisien, dan berkelanjutan. Dengan fitur cerdas berbasis prediksi, kami bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
 
 ---
+## Data Mahasiswa
+
+| Student ID | Name            | Learning Path         | University           | LinkedIn                                                                 |
+|------------|-----------------|-----------------------|----------------------|--------------------------------------------------------------------------|
+| 101        | John Doe        | Data Science          | Harvard University   | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/johndoe) |
+| 102        | Jane Smith      | Web Development       | Stanford University  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/janesmith) |
+| 103        | Bob Johnson     | Machine Learning      | MIT                  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/bobjohnson) |
+| 104        | Alice Williams  | Cybersecurity         | Oxford University    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/alicewilliams) |
+
+---
 
 ## Teknologi yang Digunakan
 
