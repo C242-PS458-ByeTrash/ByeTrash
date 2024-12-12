@@ -8,7 +8,7 @@
 
 # ByeTrash: Solusi Modern untuk Pengelolaan Sampah
 
-**ByeTrash** adalah platform inovatif yang memanfaatkan teknologi digital untuk membantu pengelolaan sampah secara lebih efektif, efisien, dan berkelanjutan. Dengan fitur cerdas berbasis prediksi, kami bertujuan menciptakan ekosistem pengelolaan sampah yang lebih baik.
+**ByeTrash** is an innovative platform that leverages digital technology to facilitate more effective, efficient, and sustainable waste management. With smart prediction-based features, we aim to create a better waste management ecosystem.
 
 ---
  Group ID : C242-PS458 
